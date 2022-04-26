@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.send('WELCOME TO ABOUT PAGE');
 });
-//404 error
+//404 error page not found
 app.use((req, res, next) => {
   res.send('page not found');
 });
